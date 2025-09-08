@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title><?= $Data['subjudul'];?></title>
-    <link href="<?= BASEURL; ?>/asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="<?= BASEURL; ?>/asset/css/sb-admin-2.min.css" rel="stylesheet">
     <link href="<?= BASEURL; ?>/asset/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -81,4 +81,5 @@
                         </div>
                     </li>
                 </ul>
+
             </nav>
