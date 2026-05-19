@@ -11,7 +11,7 @@ class ControllerCore{
     }
     public function model($Model)
     {
-        $controller = get_class($this); // Ambil nama controller, contoh: Karyawan
+        $controller = get_class($this);
         require_once MODEL_PATH . $controller . '/' . $Model . '.php';
         return new $Model;
     }
